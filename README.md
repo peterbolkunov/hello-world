@@ -1,11 +1,22 @@
-# hello-world
-i test this sheit
 <!DOCTYPE html>
 <html>
-<div class="stk-container stk-theme_2407__spec stk-theme_2407__quote_mark_hor_cyr" data-ce-tag="container">
-  <div class="stk-container stk-theme_2407__quote_text" data-ce-tag="container">
-    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart</p>
-  </div>
-</div>
-<p></p>
-<html/>
+  <head>
+    <meta charset="UTF-8">
+    <title>TO DO LIST</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <h1>TO DO LIST<i class="fa fa-plus"></i></h1>
+      <input type="text" name="text" placeholder="Add Do List">
+      <ul>
+        <li><span><i class="fa fa-trash"></i></span> GO TO HELL</li>
+        <li><span><i class="fa fa-trash"></i></span> Go to school</li>
+        <li><span><i class="fa fa-trash"></i></span> Go to lord</li>
+      </ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/style.js" type="text/javascript"></script>
+  </body>
+</html>
